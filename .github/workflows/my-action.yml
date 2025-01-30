@@ -1,0 +1,12 @@
+name: Example GitHub Action
+
+on:
+  workflow_dispatch:  # This allows you to run the action manually
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # This tells the action to run on the latest version of Ubuntu Linux
+
+    steps:
+      - name: 23f2004781@ds.study.iitm.ac.in  # This step contains your email
+        run: echo "Hello, world!"  # This command just prints "Hello, world!" in the logs
